@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cover-page {
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.colored {
+    color: #ff4d31;
+}
+
+.cover {
+    width: 50%;
+}
+
+.text {
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.text h1 {
+    font-size: 55px;
+    margin: 0;
+    color: #575757;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text p {
+    color: gray;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.text a {
+    background-image: linear-gradient(#ff4d31, #fc8f4a);
+    padding: 15px 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.cover img {
+    margin-top: 20%;
+    width: 80%;
+}
+
+.about {
+    display: flex;
+    background-image: url(image/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10%;
+}
+
+.about-us {
+    width: 50%;
+}
+
+.about-us img {
+    margin-top: 40%;
+    margin-left: 30%;
+    width: 70%;
+}
+
+.details {
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-left: 10%;
+}
+
+.details h2 {
+    font-size: 45px;
+    color: #575757;
+}
+
+.details p {
+    color: gray;
+    font-size: 25px;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.details a {
+    background-image: linear-gradient(#ff4d31, #fc8f4a);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.our-recipies {
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+.recipie-type {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+
+.recipie-type h1 
+{
+    font-size: 55px;
+    margin: 0;
+    color: #575757;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.recipie-type p {
+    color: gray;
+    font-size: 25px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.item {
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.item h1 {
+    font-size: 30px;
+    color: #575757;
+}
+
+.item p 
+{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+.specific img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.peoples {
+    margin-bottom: 5%;
+}
+
+.certificate {
+    display: flex;
+    align-items: center;
+}
+
+.certified {
+    width: 40%;
+    margin-left: 65px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.certified img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.certified h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.certified p {
+    color: gray;
+    font-size: 25px;
+}
+
+.people {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+
+.people h1 {
+    font-size: 35px;
+    color: #575757;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.people p {
+    font-size: 25px;
+    color: gray;
+}
+
+.contact {
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.contact p {
+    font-size: 30px;
+    color: gray;
+}
+
+.con {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+
+.con h1 {
+    font-size: 35px;
+    color: #575757;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.con-details {
+    display: flex;
+    margin-left: 25%;
+}
+
+#email {
+    font-size: 35px;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer-details p {
+    margin-left: 45%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #5b5b5b;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.copyright p {
+    text-align: center;
+    margin-left: 5%;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
